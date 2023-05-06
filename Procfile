@@ -1,1 +1,1 @@
-web: python manage.py migrate && python manage.py collectstatic && gunicorn LexiconSite.wsgi
+web: python manage.py migrate && python manage.py collectstatic && gunicorn app:app
