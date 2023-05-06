@@ -1,1 +1,1 @@
-web: gunicorn lexiconsite.wsgi
+web: gunicorn LexiconSite.wsgi
